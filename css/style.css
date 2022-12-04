@@ -1,0 +1,1025 @@
+/* Start of Mission */
+
+#mission {
+  padding-top: 60px;
+}
+
+em {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.spec-help {
+  margin: 25px 0;
+}
+
+.icon-apple,
+.icon-heart {
+  color: rgba(138, 138, 138, 0.9);
+  font-size: 60px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .icon-heart,
+  .icon-apple {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .icon-heart,
+  .icon-apple {
+    font-size: 60px;
+  }
+}
+/* End Mission */
+
+/* Start About */
+
+#about {
+  padding-top: 20px;
+}
+
+.karim {
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .karim {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .karim {
+    font-size: 18px;
+  }
+}
+
+/* End About */
+
+/* Start Card Avatar */
+.logo-av {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .logo-av {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .logo-av {
+    margin: 0 auto;
+  }
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin: 60px 0;
+  /* color: #fff; */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+}
+
+/* End Card Avatar */
+
+/* Start Progress */
+.container-1 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.title-progress {
+  padding-bottom: 20px;
+  font-family: "Lora", serif;
+  font-weight: Bold;
+  color: #511845;
+  letter-spacing: 1px;
+  font-size: 44px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .title-progress {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title-progress {
+    font-size: 40px;
+  }
+}
+
+.carousel-1 {
+  display: block;
+  width: 100%;
+  height: 480px;
+  padding-top: 20px;
+  white-space: nowrap;
+  position: inherit;
+  z-index: -1;
+}
+
+.owl-carousel {
+  margin: auto 0;
+}
+
+.item {
+  background-size: cover;
+  background-position: no-repeat center center;
+  width: 350px;
+  margin: 0 auto;
+  height: 350px;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .item {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 10px;
+  }
+}
+
+#client-1 {
+  background-image: url("../image/progress/changefront.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#client-2 {
+  background-image: url("../image/progress/Lea.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#client-3 {
+  background-image: url("../image/progress/unnamed.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#client-4 {
+  background-image: url("../image/progress/PHOTO-2022-02-01-20-28-49.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#client-5 {
+  background-image: url("../image/progress/PHOTO-2022-02-01-20-28-50\ \(1\).jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#client-6 {
+  background-image: url("../image/progress/image0.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #000 !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background-color: #000 !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.owl-prev {
+  left: 40px;
+}
+
+.owl-next {
+  right: 20px;
+}
+
+/* End Progress */
+
+/* Start Promo */
+
+#promo1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("../image/logo/LOGOTYPE.png") no-repeat center center / cover;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#promo1:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.title-promo {
+  font-family: "Lora", serif;
+  font-weight: Bold;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 44px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .title-promo {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title-promo {
+    font-size: 36px;
+  }
+}
+
+.list-k-gym {
+  margin-top: 140px;
+  background: rgb(255, 255, 255, 0.3);
+  height: 400px;
+  border-radius: 5px;
+}
+
+.info1 {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.info2 {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .list-gym {
+    padding-top: 55px;
+    font-size: 24px;
+  }
+  .list-k-gym ul {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .list-gym {
+    font-size: 30px;
+  }
+  .list-k-gym ul {
+    height: 340px;
+  }
+}
+
+.get-touch-info .btn-1 {
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  box-shadow: 5px 8px 18px #000;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.get-touch-info .btn-1:hover {
+  background: #000;
+  transform: translateY(-2px);
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .get-touch1-info .btn-1 {
+    font-size: 16px;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .get-touch1-info .btn-1 {
+    font-size: 18px;
+    width: 150px;
+  }
+}
+
+/* End Promo */
+
+/*Start Testimonials */
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+#testimonial-slider {
+  display: block;
+  position: relative;
+  z-index: inherit;
+}
+
+.testimonial {
+  margin: 0 90px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .testimonial {
+    margin: 0 20px;
+  }
+}
+
+.testimonial .testimonial-content {
+  margin: 20px 0 50px 0;
+  position: relative;
+}
+
+.testimonial .testimonial-content:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 20px solid #511845;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+}
+
+.testimonial .description {
+  padding: 25px 35px;
+  margin: 0;
+  background: #511845;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .testimonial .description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .testimonial .description {
+    font-size: 18px;
+  }
+}
+
+.testimonial .description:before,
+.testimonial .description:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 8px;
+  text-align: center;
+  background: #511845;
+  position: absolute;
+}
+
+.testimonial .description:before {
+  content: "\f10d";
+  top: -18px;
+  left: 25px;
+}
+
+.testimonial .description:after {
+  content: "\f10e";
+  bottom: -18px;
+  right: 25px;
+}
+
+.testimonial .testimonial-profile {
+  display: table;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial .pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 1px solid #511845; */
+  float: left;
+  overflow: hidden;
+}
+
+.testimonial .title {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  top: 22px;
+}
+
+.testimonial .title:before {
+  content: "";
+  width: 1px;
+  height: 70px;
+  background: #511845;
+  position: absolute;
+  top: -8px;
+  left: -15px;
+}
+
+.testimonial .post {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  margin-top: 10px;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 30px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: transparent;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .testimonial .description {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .testimonial .testimonial-profile {
+    padding: 10px;
+  }
+  .testimonial .title {
+    font-size: 14px;
+  }
+  .testimonial .post {
+    font-size: 13px;
+  }
+}
+
+/* End Testimonials */
+
+/* Start Promo2 */
+
+#promo2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* padding-bottom: 30px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../image/karim/ce014004-9fe5-4b90-bc9b-60f15c905250.JPG") no-repeat
+      center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#promo2:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.list-k-gym-2 {
+  background: rgb(255, 255, 255, 0.3);
+  height: 450px;
+  border-radius: 5px;
+  /* margin-bottom: 80px; */
+}
+
+.list-k-gym-2 > p {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.list-gym {
+  padding-top: 30px;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .list-gym {
+    /* padding-top: 55px; */
+    font-size: 22px;
+  }
+  ul {
+    height: 200px;
+  }
+  /* .list-k-gym > p {
+    padding-bottom: 100px;
+  } */
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .list-gym {
+    font-size: 26px;
+  }
+  .list-k-gym ul {
+    height: 340px;
+  }
+}
+
+.get-touch-info .btn-2 {
+  background: #fff;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 5px 8px 18px #000;
+  /* color: #000; */
+  font-size: 22px;
+  font-weight: bold;
+  /* margin-top: 160px; */
+  cursor: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .get-touch1-info .btn-2 {
+    font-size: 16px;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .get-touch1-info .btn-2 {
+    font-size: 18px;
+    width: 150px;
+  }
+}
+
+/* End Promo2 */
+
+/* Start of Nutrition */
+
+#nutrition {
+  /* padding-top: 60px; */
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../image/karim/pexels-maarten-van-den-heuvel-2284166.jpg") no-repeat
+      center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#nutrition:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.nutr {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .nutr {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .nutr {
+    font-size: 18px;
+  }
+}
+
+.nut-but {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Lora", serif;
+}
+
+.nut-but:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#nutrition .btn-circle {
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 8px 18px #000;
+  transition: all 0.2s;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-top: 100px;
+  margin-bottom: 50px; */
+}
+
+@media screen and (max-width: 720px) {
+  .nutrition {
+    background-size: 540px 720px;
+  }
+}
+
+#nutrition .btn-circle:hover {
+  background: #511845;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+#nutrition .btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+
+#nutrition .btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+#nutrition .btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* End of Nutrition */
+
+/* Start of Recipe */
+
+#recipe {
+  padding-top: 60px;
+}
+
+/* ul > li {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-weight: bold;
+  } */
+
+/* ul > li:hover {
+    text-decoration: none;
+    color: #511845;
+  } */
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-align: center;
+    margin: 0 auto; */
+  font-family: "Lora", serif;
+  /* font-weight: bold; */
+  /* padding-left: 5px; */
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  ul > li > a {
+    font-size: 22px;
+  }
+  ul > li > a:hover {
+    text-decoration: none;
+    color: #511845;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  ul > li > a {
+    font-size: 28px;
+  }
+  ul > li > a:hover {
+    text-decoration: none;
+    color: #511845;
+  }
+}
+
+.cards-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: auto;
+  height: 250px;
+  border-radius: 25px;
+}
+
+.cards-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/Spanish-Paella.jpg") no-repeat center center / cover;
+}
+
+.cards-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/Cod-Fish-Cakes-sq.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/timthumb.gif") no-repeat center center / cover;
+}
+
+.cards-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/aquapazza_56822.jpg") no-repeat center center / cover;
+}
+
+.cards-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__02__carrot-ginger-soup-horiz-b-1800-dd69c8e29d2a4a78bc0f4626536dcd06.jpg")
+      no-repeat center center / cover;
+}
+
+.cards-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/img86001.768x512.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/rice-salad-with-roasted-peppers-and-onions-5-Edit.jpg")
+      no-repeat center center / cover;
+}
+
+.cards-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/couscous-g2f66b2ba4_1920.jpg") no-repeat center
+      center / cover;
+}
+
+.cards-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/Best_Ever_Oatmeal_Raisin_Cookies_Featured.jpg")
+      no-repeat center center / cover;
+}
+
+.cards-10 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/Spiced-hot-fruit-bake-6.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-11 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/pexels-cottonbro-4547572.jpg") no-repeat center
+      center / cover;
+}
+
+.cards-12 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../image/cookbook/alison-pang-VKsZn10EC7E-unsplash.jpg") no-repeat
+      center center / cover;
+}
+
+.btn {
+  background: #fff;
+  width: 100px;
+  border-radius: 25px;
+  box-shadow: 5px 8px 18px #000;
+  transition: all 0.2s;
+  /* color: #000;
+    font-size: 20px;
+    font-weight: bold; */
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background: #511845;
+  transform: translateY(-2px);
+  /* color: #fff; */
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .btn {
+    width: 80px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .btn {
+    width: 90px;
+  }
+  a {
+    font-size: 18px;
+  }
+}
+
+span {
+  color: #000;
+}
+
+.rec-title {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .rec-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .rec-title {
+    font-size: 16px;
+  }
+}
+
+/* End of Recipe */
+
+/* Start of FAQ Accordion */
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.accordion-item {
+  background-color: #000;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  background: #511845;
+}
+
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-item-header.active::after {
+  transform: rotate(45deg);
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+.faq {
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .faq {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .faq {
+    font-size: 22px;
+  }
+}
+
+.faq2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  .faq2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .faq2 {
+    font-size: 18px;
+  }
+}
+
+/* End of FAQ Accordion*/

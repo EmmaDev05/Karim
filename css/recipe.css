@@ -1,0 +1,526 @@
+/* Recipe */
+#recipe {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.recipe-text {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.recipe-text h2 {
+  color: #ff5733;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .recipe-text h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .recipe-text h2 {
+    font-size: 26px;
+  }
+}
+
+.recipe-text p {
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .recipe-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .recipe-text p {
+    font-size: 18px;
+  }
+}
+
+table {
+  width: 100%;
+  margin: 50px auto;
+}
+
+thead {
+  background: rgb(90, 89, 89);
+}
+
+.table-active h5 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellowgreen;
+  margin-top: 10px;
+}
+
+.table-active p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .table-active p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .table-active p {
+    font-size: 18px;
+  }
+}
+
+.recipe-text-2 h5 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellowgreen;
+}
+
+.recipe-text-2 p {
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .recipe-text-2 p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .recipe-text-2 p {
+    font-size: 18px;
+  }
+}
+
+.spotlight {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.spotlight > * {
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  -moz-flex-grow: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-grow: 0;
+  flex-grow: 0;
+}
+
+.spotlight > * {
+  width: 50%;
+}
+
+.spotlight p:last-child {
+  margin: 0;
+}
+
+.spotlight .inner {
+  padding: 3rem;
+}
+
+.spotlight .image img {
+  width: 450px;
+  height: 300px;
+}
+
+.spotlight.alt {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  text-align: right;
+}
+
+.spotlight.alt > * {
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  -moz-flex-grow: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-grow: 0;
+  flex-grow: 0;
+}
+
+.spotlight.alt .image {
+  -moz-order: 2;
+  -webkit-order: 2;
+  -ms-order: 2;
+  order: 2;
+}
+
+@media screen and (max-width: 1280px) {
+  .spotlight .inner {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .spotlight {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .spotlight > * {
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+  }
+
+  .spotlight > * {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .spotlight .inner {
+    padding: 2rem;
+  }
+}
+
+#recipe-1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/Spanish-Paella.jpg") no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-1:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-2 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/Cod-Fish-Cakes-sq.jpg") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-2:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-3 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/timthumb.gif") no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-3:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-4 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/aquapazza_56822.jpg") no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-4:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-5 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__02__carrot-ginger-soup-horiz-b-1800-dd69c8e29d2a4a78bc0f4626536dcd06.jpg")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-5:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-6 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/img86001.768x512.jpg") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-6:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-7 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/rice-salad-with-roasted-peppers-and-onions-5-Edit.jpg")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-7:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-8 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/couscous-g2f66b2ba4_1920.jpg") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-8:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-9 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/Best_Ever_Oatmeal_Raisin_Cookies_Featured.jpg")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-9:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-10 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/Spiced-hot-fruit-bake-6.jpg") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-10:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-11 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/pexels-cottonbro-4547572.jpg") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-11:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#recipe-12 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../image/cookbook/alison-pang-VKsZn10EC7E-unsplash.jpg") no-repeat
+      center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#recipe-12:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.new {
+  border: solid 0.5px rgb(90, 89, 89);
+}
+
+.info-icon h5 {
+  font-size: 16px;
+}
+
+.recipe-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+.recipe-icons i {
+  font-size: 1.5rem;
+  color: #ff5733;
+}
+
+.recipe-icons h5,
+.recipe-icons p {
+  margin-bottom: 0;
+  font-size: 0.85em;
+  color: #fff;
+}
+/* End of Nutrition */
